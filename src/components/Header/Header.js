@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../images/logo.PNG";
 import './Header.css'
 
-const Header = () => {
+const Header = ({handleSearchMeal}) => {
   return (
     <div>
       <nav>
@@ -17,8 +17,8 @@ const Header = () => {
               <li>Food-Vlog</li>
             </div>
             <div className="food-search">
-              <input type="text" placeholder="search your favorite food" />
-              <button className="src-btn">Search</button>
+              <input onChange={handleSearchMeal} type="text" placeholder="search your favorite food" />
+              <button  className="src-btn">Search</button>
             </div>
           </div>
         </div>

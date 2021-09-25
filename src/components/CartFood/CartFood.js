@@ -2,10 +2,11 @@ import React from "react";
 import "./CartFood.css";
 
 const CartFood = (props) => {
-  console.log(props.cartItem);
+  // console.log(props.cartItem);
   //   const { strMeal, strMealThumb } = props.cartItem;
   return (
     <div>
+      <h2>Added Item: {props.cartItem.length}</h2>
       {props.cartItem.map((item) => (
         <li>
           <div className="cart">
