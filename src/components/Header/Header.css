@@ -1,0 +1,41 @@
+nav{
+    margin-top: 20px;
+}
+.brand-logo{
+    text-align: center;
+}
+.brand-logo img{
+    height: 100px;
+}
+.nav-bar{
+    background-color: #ed1d26;
+}
+.nav-menu,
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    width: 85%;
+    margin: 0 auto;
+}
+.nav-options li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+}
+.nav-options li:hover{
+    background-color: white;
+    color: black;
+}
+.food-search input,
+.src-btn{
+    padding: 10px 30px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}

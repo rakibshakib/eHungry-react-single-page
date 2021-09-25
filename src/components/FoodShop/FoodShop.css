@@ -1,0 +1,38 @@
+.food-card{
+    width: 300px;
+    height: 530px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.card-img{
+    width: 295px;
+}
+.card-img img{
+    width: 100%;
+    padding: 5px; 
+    border-radius: 15px; 
+}
+.food-details{
+    line-height: 22px;
+}
+.food-details h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ed1d26;
+    margin-top: 10px;
+}
+.food-details p{
+    margin-top: 10px;
+}
+.add-to-cart{
+    margin: 15px 0;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #ed1d26;
+    color: white;
+}

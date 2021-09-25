@@ -1,0 +1,19 @@
+.food-shop{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+    grid-gap: 10px
+}
+.food-container,
+.food-cart{
+    padding: 10px 5px;
+}
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
