@@ -32,7 +32,7 @@ const FoodData = () => {
     const newCart = [...cartItem, food];
     setCartItem(newCart);
   };
-  // console.log(foods)
+  console.log(foods)
   return (
     <>
       <Header handleSearchMeal={handleSearchMeal} />
