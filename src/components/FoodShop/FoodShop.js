@@ -5,7 +5,6 @@ const FoodShop = (props) => {
   const { addToCartHandle } = props;
   return (
     <>
-      <p>Item Found: {props.food.length}</p>
       <div className="food-card">
         <figure className="card-img">
           <img src={strMealThumb} alt="" />
